@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acfb1fedd3124a04e8fd79e6f7701db7, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Data/Data.xlsx
+  WorksheetName: Character
+  dataArray:
+  - id: 10101
+    name: "\uC288\uB85C"
+    title: "\uD654\uC870\uD48D\uC6D4\uBD80"
+    image: Img/Shuro_00
+    discription: "\uC288\uB85C_\uAE30\uBCF8\uD45C\uC815"
+  - id: 10102
+    name: "\uC288\uB85C"
+    title: "\uD654\uC870\uD48D\uC6D4\uBD80"
+    image: Img/Shuro_01
+    discription: "\uC288\uB85C_\uC6C3\uB294\uD45C\uC815"
+  - id: 10103
+    name: "\uC288\uB85C"
+    title: "\uD654\uC870\uD48D\uC6D4\uBD80"
+    image: Img/Shuro_02
+    discription: "\uC288\uB85C_\uAD81\uAE08\uD55C\uD45C\uC815"
+  - id: 10201
+    name: "\uCE74\uC988\uC0AC"
+    title: "\uBC29\uACFC\uD6C4 \uB514\uC800\uD2B8\uBD80"
+    image: Img/Kazusa_00
+    discription: "\uCE74\uC988\uC0AC_\uAE30\uBCF8\uD45C\uC815"
+  - id: 10202
+    name: "\uCE74\uC988\uC0AC"
+    title: "\uBC29\uACFC\uD6C4 \uB514\uC800\uD2B8\uBD80"
+    image: Img/Kazusa_01
+    discription: "\uCE74\uC988\uC0AC_\uC6C3\uB294\uD45C\uC815"
+  - id: 10203
+    name: "\uCE74\uC988\uC0AC"
+    title: "\uBC29\uACFC\uD6C4 \uB514\uC800\uD2B8\uBD80"
+    image: Img/Kazusa_02
+    discription: "\uCE74\uC988\uC0AC_\uAD81\uAE08\uD55C\uD45C\uC815"

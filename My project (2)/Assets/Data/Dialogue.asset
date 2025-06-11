@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf8ad156dc78b3743a623f9ee86575cc, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Data/Data.xlsx
+  WorksheetName: Dialogue
+  dataArray:
+  - id: 1
+    bg: BG_CraftChamber
+    character: 10201
+    position: 5
+    dialogue: "\uC9C0\uC6D0\uB2D8 \uC900\uBAA8\uB2D8"
+  - id: 2
+    bg: BG_CraftChamber
+    character: 10102
+    position: 1
+    dialogue: "\uC9C0/\uC6D0\uB2D8 \uC900/\uBAA8\uB2D8"
+  - id: 3
+    bg: BG_CraftChamber
+    character: 10103
+    position: 4
+    dialogue: "\uC9C0/\uC6D0/\uB2D8 \uC900/\uBAA8/\uB2D8"
+  - id: 4
+    bg: BG_CraftChamber
+    character: 10101
+    position: 3
+    dialogue: "\uC9C0\uC6D0/\uB2D8/\uC900\uBAA8/\uB2D8"
+  - id: 5
+    bg: BG_CraftChamber
+    character: 10202
+    position: 2
+    dialogue: "\uC9C0==============\uC6D0==============\uC900=============\uBAA8"
